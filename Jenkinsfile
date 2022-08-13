@@ -1,11 +1,8 @@
 properties([pipelineTriggers([pollSCM('')])])
 node {
     stage("clone"){
-        git "https://github.com/Yuri2021/first-git-repo.git"
+        git "//github.com/Yuri2021/MySoftware.git"
     }
     stage("show files"){
-        sh (-ls -l)
-    }
-    
-    
+        sh
 }
