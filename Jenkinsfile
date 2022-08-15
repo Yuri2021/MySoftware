@@ -4,5 +4,5 @@ node {
         git "//github.com/Yuri2021/MySoftware.git"
     }
     stage("show files"){
-        sh
+        sh "ls -rtl"
 }
