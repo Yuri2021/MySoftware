@@ -5,5 +5,6 @@ node {
     }
     stage("show files"){
         sh "ls -rtl"
-        {
     }
+}
+    
